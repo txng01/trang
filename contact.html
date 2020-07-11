@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Kreon&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<style>
+	form {text-align: center;}
+
+	input[type=text],
+	select,
+	textarea {
+		width: 35%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;}
+
+	body {background-color: #EBF7FF;}
+</style>
+
+<body>
+
+	<script src="script.js">
+
+	</script>
+	<ul id="nav">
+		<li> <a href="index.html">Home</a> </li>
+		<li> <a href="about.html">About</a> </li>
+		<li> <a href="resume.html">Resume</a> </li>
+		<li> <a href="project.html"> Project </a> </li>
+		<li> <a href="espeech.html">Elevator Speech</a> </li>
+		<li> <a href="contact.html"> Contact </a> </li>
+	</ul>
+
+	<h1> Contact Me </h1>
+
+	<img src="bc.png" alt="BC" class="center" style="width:30%;" >
+  <br>
+
+   <form style="font-size:20px; 
+                 font-family: 'Kreon',serif ; >
+      <label for="name">First Name:</label>
+      <br>
+      <input type="text" name="user_firstname" placeholder="Your name">
+      <br><br>
+
+      <label for="name">Last Name:</label>
+      <br>
+      <input type="text" name="user_lastname" placeholder="Your last name">
+      <br><br>
+
+      <label for="mail">Email:</label>
+      <br>
+      <input type="text" name="user_email">
+      <br><br>
+      
+      <label for="subject"> Subject:</label>
+      <br>
+      <input type="text" name="subject">
+      <br><br> 
+
+      <label for="message">Message:</label>
+      <br>
+      <textarea rows="5" cols="50" name="comment" placeholder="Write something..."> </textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+ 
+
+   </body>
